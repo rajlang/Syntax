@@ -5,6 +5,7 @@ Syntax of raj programming language
 
 ```raj
 // Single line comment
+# This is also single line comment
 
 /*
 * Multi
@@ -77,6 +78,29 @@ if ( a == b) {
 } else {
   println("Hello Everyone");
 }
+
+// template literals
+
+`
+this is the 
+m
+u
+l
+t
+i
+line
+template-literal
+`
+"""
+this is also a 
+m
+u
+l
+t
+i
+line
+template-literal
+"""
 
 // switch statements
 
