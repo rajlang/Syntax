@@ -26,12 +26,24 @@ const PI = 3.1415; // im-mutable constant with global scope
 
 // Loops
 
+// for
 for ( i = 0; i < 10; i++ ) {
   println(i);
 }
 
+// while
 while ( true === true ) {
   print("Hello World");
+  break;
+}
+
+// do-while
+
+do {
+  println("Do");
+}
+while (true) {
+  println("while");
   break;
 }
 
@@ -62,5 +74,22 @@ if ( a == b) {
   println("Hello World");
 } else {
   println("Hello Everyone");
+}
+
+// switch statements
+
+
+switch(a) {
+  case 1:
+    println("a is one");
+    break;
+    
+  case 2:
+    println("a is two");
+    break;
+    
+  default:
+    println("a is not one or two");
+    break;
 }
 ```
