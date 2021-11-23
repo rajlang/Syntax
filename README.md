@@ -3,7 +3,7 @@ Syntax of raj programming language
 
 ## Syntax
 
-```raj
+```rs
 // Single line comment
 # This is also single line comment
 
@@ -20,9 +20,9 @@ fn main() {
   println("Hello World"); // With new line
 }
 
-// defining variables
+// Defining variables
 
-let myvar1 = 1; // mutable variable with local scope
+let myVar1 = 1; // mutable variable with local scope
 // or
 myVar2 = 10 // doesn't need keyword to declare. if already declared then changes it
 const PI = 3.1415; // im-mutable constant with global scope
@@ -34,14 +34,18 @@ for ( i = 0; i < 10; i++ ) {
   println(i);
 }
 
-// while
-while ( true === true ) {
+// while (not infinite loop)
+while (sayHello) {
   print("Hello World");
   break;
 }
 
-// do-while
+// loops infinitely with optimizations
+loop {
+  println("I love Programming");
+}
 
+// do-while
 do {
   println("Do");
 }
@@ -106,11 +110,11 @@ template-literal
 
 
 switch(a) {
-  case 1:
+  1 || 3 :
     println("a is one");
     break;
     
-  case 2:
+  2 || 4:
     println("a is two");
     break;
     
