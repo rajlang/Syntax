@@ -1,8 +1,16 @@
 # Raj Lang Syntax
+
 Syntax of raj programming language
+
+
+## 🤝 Contribution
+
+Please Vote for proposals or propose new at [Dicussions](https://github.com/rajlang/Syntax/discussions/categories/proposals)
+
 
 ## Syntax
 
+<!-- Using rust lang for some syntax highlighting -->
 ```rs
 // Single line comment
 # This is also single line comment
