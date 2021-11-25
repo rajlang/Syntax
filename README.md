@@ -26,6 +26,11 @@ Please Vote for proposals or propose new at [Dicussions](https://github.com/rajl
 fn main() {
   print("Hello World"); // Without new line
   println("Hello World"); // With new line
+  
+  // Prints "Hello, World! - Hello, World! - ... 8 times"
+  for(i = 0; i < 10; i++) {
+    print("Hello, World!", end=" - ");  // custom end character
+  }
 }
 
 // Defining variables
