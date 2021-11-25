@@ -3,7 +3,7 @@
 Syntax of raj programming language
 
 
-## 🤝 Contribution
+## 🤝 Contributing
 
 Please Vote for proposals or propose new at [Dicussions](https://github.com/rajlang/Syntax/discussions/categories/proposals)
 
@@ -136,8 +136,3 @@ switch(a) {
     break;
 }
 ```
-
-## 🤝 Contributing
-
-  Feel free to add or improve this syntax by creating an issue.
-  Once the syntax is added to all implementations it will be reflected in this repo and the issue will be closed.
